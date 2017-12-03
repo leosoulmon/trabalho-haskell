@@ -1,0 +1,18 @@
+<h1>
+    NETFLIX DA FATEC - Visitante
+
+<ul>
+    <li>
+        <a href=@{CadSerieR}>
+            Cadastrar Serie
+    <li>    
+        <a href=@{ListarSerieR}>
+            Listar Serie
+    <li>
+        <a href=@{CadUsuarioR}>
+            CadastrarUsuario
+
+    <li>
+        <a href=@{LoginR}>
+            Login
+        

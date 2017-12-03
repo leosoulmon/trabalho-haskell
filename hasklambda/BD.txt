@@ -1,0 +1,10 @@
+Database
+d2ria3b9dil1ec
+User
+dpjthrmgbmddci
+Port
+5432
+Password
+8cd51330ad831698b560969689db51a7474f1613533b052cecec6cc944510538
+URI
+postgres://dpjthrmgbmddci:8cd51330ad831698b560969689db51a7474f1613533b052cecec6cc944510538@ec2-107-21-109-15.compute-1.amazonaws.com:5432/d2ria3b9dil1ec

@@ -1,0 +1,7 @@
+
+import Handler.Serie
+import Handler.Usuario
+import Handler.UsuarioSerie
+import Handler.Inicio
+import Handler.Teste
+import Handler.Login

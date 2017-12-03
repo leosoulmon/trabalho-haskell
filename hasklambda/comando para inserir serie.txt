@@ -1,0 +1,2 @@
+no terminal na workspace
+curl -v -x POST https://hasklambda-romefeller.c9users.io/serie -d '{"nome":"Friends","genero":"Comedia", "qtTemp":10, "ano":1994}'

@@ -1,0 +1,22 @@
+<h1>
+    NETFLIX DA FATEC
+
+<ul>
+    <li>
+        <a href=@{CadSerieR}>
+            Cadastrar Serie
+    <li>    
+        <a href=@{ListarSerieR}>
+            Listar Serie
+    <li>
+        <a href=@{CadUsuarioR}>
+            CadastrarUsuario
+    $maybe usu <- talvezUsuario
+        <li>
+            <form action=@{LogoutR} method=post>
+                <input type="submit" value="Logout">
+    $nothing
+        <li>
+            <a href=@{LoginR}>
+                Login
+        

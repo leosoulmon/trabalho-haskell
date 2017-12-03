@@ -1,0 +1,32 @@
+/static StaticR Static appStatic
+
+/serie                   SerieR                                 POST
+/serie/#SerieId/consulta ConsultaSerieR                         GET
+/serie/consulta/todos    TodasSerieR                            GET
+/serie/#SerieId/apagar   ApagarSerieR                           DELETE
+/serie/#SerieId/alterar  AlterarSerieR                          PUT
+/serie/#SerieId/alterar/#Text/nome AlterarNomeR                 PATCH
+
+/usuario                   UsuarioR        POST
+/usuario/consulta/todos    TodosUsuariosR  GET
+
+/acompanhar/#SerieId/serie/#UsuarioId/usuario  AcompanharR      POST
+/acompanhar/#SerieId/todos                     ExpectadoresR    GET
+
+/alo/#Text   HomeR GET
+
+/testando    TesteR GET
+
+/serie/cadastrar           CadSerieR        GET POST
+/serie/#SerieId/perfil     PerfilSerieR     GET
+/serie/listar              ListarSerieR     GET
+/serie/#SerieId/apagar     ApagarSerieR     POST
+
+/usuario/cadastrar         CadUsuarioR      GET POST
+/usuario/#UsuarioId/perfil PerfilUsuarioR   GET
+
+/login                     LoginR           GET POST
+/logout                    LogoutR          POST
+/admin                     AdminR           GET
+
+

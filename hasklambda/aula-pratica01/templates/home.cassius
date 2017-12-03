@@ -1,0 +1,7 @@
+ul 
+    display:flex
+    justify-content:center
+    list-style:none
+li 
+    padding:15px 10px
+    border:1px solid black

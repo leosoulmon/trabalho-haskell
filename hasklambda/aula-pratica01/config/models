@@ -1,0 +1,26 @@
+PedidoCliente
+    pdId     PedidoId
+    clid     ClienteId
+    deriving Show
+    
+Pedidos json
+    numero          Int
+    sanduiche       Text
+    descricao       Text
+    acompanhamento  Text
+    deriving Show
+    
+Cliente json
+    nome        Text
+    sobrenome   Text
+    cpf         Text
+    email       Text
+    senha       Text
+    telefone    Text
+    endereco    Text
+    numero      Int
+    complemento Text
+    cidade      Text
+    estado      Text
+    UniqueField   cpf email
+    deriving Show
