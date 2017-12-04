@@ -1,0 +1,23 @@
+<nav .red .darken-4>
+    <div .nav-wrapper>
+        <a href=@{HomeR} .brand-logo> CallSaduba </a>
+        <ul .right>
+            <li>
+                <a href=# data-activates=slide-out .btn-menu> 
+                    <i .material-icons> menu </i>       
+        
+<ul #slide-out .side-nav .right>
+    <li>
+        <div .user-view>
+            <a href=#>
+                <span class="name">
+                    Leosoulmon
+            <a href=#>
+                <span class="email">
+                    leosoulmon@gmail.com
+    <li>
+        <a href=#> Inicio </a>
+    <li>
+        <a href=#> Pedido </a>
+    <li>
+        <a href=#> Login </a>

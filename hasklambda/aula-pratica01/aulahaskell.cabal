@@ -68,11 +68,6 @@ library
       Application
       Foundation
       Handler.Inicio
-      Handler.Login
-      Handler.Pagina
-      Handler.Serie
-      Handler.Teste
-      Handler.Usuario
       Import
       Import.NoFoundation
       Model

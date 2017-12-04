@@ -1,13 +1,13 @@
-PedidoCliente
-    pdId     PedidoId
-    clid     ClienteId
-    deriving Show
-    
-Pedidos json
+Pedido json
     numero          Int
     sanduiche       Text
     descricao       Text
     acompanhamento  Text
+    deriving Show
+
+PedidoCliente
+    pdId     PedidoId
+    clid     ClienteId
     deriving Show
     
 Cliente json
