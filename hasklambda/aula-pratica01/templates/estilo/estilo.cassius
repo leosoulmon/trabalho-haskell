@@ -10,6 +10,14 @@ nav
 .margin-main-content
     margin-top: 50px;
     margin-bottom: 50px;
+
+.slider-margin
+    margin-bottom: 100px
+
+.map-content
+    width: 100%;
+    height: 600px;
     
-.text-shadow
-    box-shadow: 5px 5px 10px #888888;
+.back-colour-visible
+    background-color: rgba(256,256,256,0.5);
+    padding: 10px;

@@ -1,25 +1,27 @@
 <body>
     <main .container .margin-main-content>
-        <div .slider>
+        <div .slider .row .slider-margin>
             <ul .slides>
                 <li>
                     <img src=@{StaticR images_bannersandwich_jpg}> 
-                    <div .caption .center-align>
-                        <h3>
+                    <div .caption .left-align>
+                        <h3 .black-text .back-colour-visible>
                             Venha e deixe mais gostoso!
-                        <h5 .light .grey-text .text-lighten-3 .text-shadow>
+                        <h5 .light .black-text .back-colour-visible>
                             Almoço, especial e café da manhã.
                 <li>
                     <img src=@{StaticR images_bannersandwich2_jpg}> 
                     <div .caption .left-align>
-                        <h3>
+                        <h3 .black-text .back-colour-visible>
                             Novidade!
-                        <h5 .light .grey-text .text-lighten-3 .text-shadow>
+                        <h5 .light .black-text .back-colour-visible>
                             Sanduiche de temaki, onde mais você verá isso?
                 <li>
                     <img src=@{StaticR images_bannersandwich3_jpg}> 
-                    <div .caption .right-align>
-                        <h3>
-                            Aqui também tem pra quem é fit!
-                        <h5 .light .grey-text .text-lighten-3 .text-shadow>
+                    <div .caption .left-align>
+                        <h3 .black-text .back-colour-visible>
+                            Aqui tem pra quem é fit!
+                        <h5 .light .black-text .back-colour-visible>
                             O pão bem sem graça, para sua vida sem graça.
+        
+        <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.0408698518936!2d-46.341246649773744!3d-23.9589948844108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce0314b0375103%3A0x8dfdadd481fa76e4!2sSubway!5e0!3m2!1spt-BR!2sbr!4v1512430448142 .center .map-content .row frameborder=0>
