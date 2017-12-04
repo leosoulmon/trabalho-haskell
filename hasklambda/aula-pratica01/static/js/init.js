@@ -5,4 +5,10 @@ $(function(){
         closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
         draggable: true
    }); 
+   
+   $('.slider').slider({
+      indicators: false
+   });
+   
+   $('.slider').slider('start');
 });

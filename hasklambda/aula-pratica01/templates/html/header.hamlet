@@ -1,6 +1,6 @@
-<nav .red .darken-4>
+<nav .vermelho-logo>
     <div .nav-wrapper>
-        <a href=@{HomeR} .brand-logo> CallSaduba </a>
+        <a href=@{HomeR} .brand-logo> <img src= alt=Logo CallSanduba>  </a>
         <ul .right>
             <li>
                 <a href=# data-activates=slide-out .btn-menu> 
@@ -9,10 +9,10 @@
 <ul #slide-out .side-nav .right>
     <li>
         <div .user-view>
-            <a href=#>
+            <a>
                 <span class="name">
                     Leosoulmon
-            <a href=#>
+            <a>
                 <span class="email">
                     leosoulmon@gmail.com
     <li>

@@ -1,2 +1,15 @@
 nav
     padding-left:15px;
+    
+.amarelo-logo
+    background:#ede576;
+    
+.vermelho-logo
+    background:#d90202 !important; 
+    
+.margin-main-content
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+.text-shadow
+    box-shadow: 5px 5px 10px #888888;

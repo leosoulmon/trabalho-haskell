@@ -1,18 +1,18 @@
-<footer .page-footer .yellow .darken-2 .yellow-text .text-darken-2>
+<footer .page-footer .amarelo-logo>
     <div .container>
         <div .row>
             <div .col .l6 .m12 .s12>
-                <h5 .white-text> CallSanduba </h5>
-                <p .grey-text .text-lighten-4>
+                <h5 .black-text> CallSanduba </h5>
+                <p .black-text>
                     Faça seu pedio agora do que você mais gosta e deixe seu dia mais gostoso.</p>
             <div .col .l4 .offset-l2 s12>
-                <h5 .white-text> Redes Sociais</h5>
+                <h5 .black-text> Redes Sociais</h5>
                 <p>
-                    <a .grey-text .text-lighten-3 href=#> Facebook </a>
+                    <a .black-text href=#> Facebook </a>
                 <p>
-                    <a .grey-text .text-lighten-3 href=#> Instagram </a>
+                    <a .black-text href=#> Instagram </a>
                 <p>
-                    <a .grey-text .text-lighten-3 href=#> Twitter </a>
-    <div .footer-copyright .red .darken-4>
+                    <a .black-text href=#> Twitter </a>
+    <div .footer-copyright .vermelho-logo>
         <div .container>
             © 2017 Copyright

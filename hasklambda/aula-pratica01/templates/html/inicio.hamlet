@@ -1,5 +1,25 @@
 <body>
-    <main .container>
-    
-
-      
+    <main .container .margin-main-content>
+        <div .slider>
+            <ul .slides>
+                <li>
+                    <img src=@{StaticR images_bannersandwich_jpg}> 
+                    <div .caption .center-align>
+                        <h3>
+                            Venha e deixe mais gostoso!
+                        <h5 .light .grey-text .text-lighten-3 .text-shadow>
+                            Almoço, especial e café da manhã.
+                <li>
+                    <img src=@{StaticR images_bannersandwich2_jpg}> 
+                    <div .caption .left-align>
+                        <h3>
+                            Novidade!
+                        <h5 .light .grey-text .text-lighten-3 .text-shadow>
+                            Sanduiche de temaki, onde mais você verá isso?
+                <li>
+                    <img src=@{StaticR images_bannersandwich3_jpg}> 
+                    <div .caption .right-align>
+                        <h3>
+                            Aqui também tem pra quem é fit!
+                        <h5 .light .grey-text .text-lighten-3 .text-shadow>
+                            O pão bem sem graça, para sua vida sem graça.
