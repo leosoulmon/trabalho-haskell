@@ -1,11 +1,22 @@
 nav
     padding-left:15px;
+
+.menu
+    height:100px;
+    line-height:100px;
+
+nav .nav-wrapper i
+    line-height:100px;
     
+
 .amarelo-logo
     background:#ede576;
     
 .vermelho-logo
     background:#d90202 !important; 
+
+.vermelho-logo-text
+    color:#d90202 !important;
     
 .margin-main-content
     margin-top: 50px;

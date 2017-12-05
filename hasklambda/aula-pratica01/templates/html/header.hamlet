@@ -1,10 +1,11 @@
-<nav .vermelho-logo>
+<nav .amarelo-logo .menu>
     <div .nav-wrapper>
-        <a href=@{HomeR} .brand-logo> <img src= alt=Logo CallSanduba>  </a>
+        <a href=@{HomeR} .brand-logo> 
+            <img src=@{StaticR images_logo100_png} .responsive-img>
         <ul .right>
             <li>
                 <a href=# data-activates=slide-out .btn-menu> 
-                    <i .material-icons> menu </i>       
+                    <i .material-icons .vermelho-logo-text> menu </i>       
         
 <ul #slide-out .side-nav .right>
     <li>

@@ -3,11 +3,13 @@ Pedido json
     sanduiche       Text
     descricao       Text
     acompanhamento  Text
+    preco           Int
     deriving Show
 
 PedidoCliente
     pdId     PedidoId
     clid     ClienteId
+    troco    Int
     deriving Show
     
 Cliente json
