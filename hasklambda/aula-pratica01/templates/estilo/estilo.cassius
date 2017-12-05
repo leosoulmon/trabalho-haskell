@@ -32,13 +32,6 @@ nav .nav-wrapper i
 .back-colour-visible
     background-color: rgba(256,256,256,0.5);
     padding: 10px;
-    
-.eat_Gif
-    width: 26%;
 
-.eat_paragraph
-    transform: translateY(-11px);    
-    
-.animHov:hover
-    background-color: rgba(244, 235, 66, 0.5);
-    transition: 0.2s;
+.anim
+    width: 30%;

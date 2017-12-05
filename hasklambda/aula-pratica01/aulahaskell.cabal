@@ -67,6 +67,7 @@ library
   exposed-modules:
       Application
       Foundation
+      Handler.Cardapio
       Handler.Inicio
       Import
       Import.NoFoundation

@@ -1,0 +1,32 @@
+<main .container .margin-main-content>
+    <div .row>
+        <div .col .l3 .m4 .m6>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <p> Nome do pedido </p>
+            <p> Descrição do pedido </p>
+            <p> Preço: R$99 </p>
+        <div .col .l3 .m4 .m6>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <p> Nome do pedido </p>
+            <p> Descrição do pedido </p>
+            <p> Preço: R$99 </p>
+        <div .col .l3 .m4 .m6>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <p> Nome do pedido </p>
+            <p> Descrição do pedido </p>
+            <p> Preço: R$99 </p>
+        <div .col .l3 .m4 .m6>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <p> Nome do pedido </p>
+            <p> Descrição do pedido </p>
+            <p> Preço: R$99 </p>
+        <div .col .l3 .m4 .m6>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <p> Nome do pedido </p>
+            <p> Descrição do pedido </p>
+            <p> Preço: R$99 </p>
+        <div .col .l3 .m4 .m6>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <p> Nome do pedido </p>
+            <p> Descrição do pedido </p>
+            <p> Preço: R$99 </p>

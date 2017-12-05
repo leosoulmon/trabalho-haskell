@@ -17,7 +17,9 @@
                 <span class="email">
                     leosoulmon@gmail.com
     <li>
-        <a href=#> Inicio </a>
+        <a href=@{HomeR}> Inicio </a>
+    <li>
+        <a href=@{CardapioR}> Cardápio </a>
     <li>
         <a href=#> Pedido </a>
     <li>
