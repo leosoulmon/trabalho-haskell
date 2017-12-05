@@ -1,0 +1,32 @@
+\dt
+drop table "serie";
+drop table "usuarioserie";
+drop table "usuario_serie";
+drop table "serie";
+drop table "usuario";
+dt
+\dt
+select * from cliente
+select * from cliente
+\select * from cliente
+\select
+\?
+qecho cliente
+select * from cliente
+select * from Cliente
+insert into Pedido 1, MegaSanduba, sanduiche bem gostoso, Batata grande e refrigerante, 20
+select * from cliente
+select * from pedido
+\select * from cliente
+\select from cliente
+/select
+\select
+\select.
+\select pedido
+\select * from cliente
+\?
+\g select * from pedido
+\g select
+\dt
+\dt cliente
+\s cliente

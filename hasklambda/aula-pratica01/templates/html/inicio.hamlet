@@ -23,5 +23,16 @@
                             Aqui tem pra quem é fit!
                         <h5 .light .black-text .back-colour-visible>
                             O pão bem sem graça, para sua vida sem graça.
+                            
+        <div .row>
+            <div .col .l4 .m4 .s4 .center .animHov>
+                <img src=@{StaticR images_images_gif}>
+                <p> Peça seu sanduiche. </p>
+            <div .col .l4 .m4 .s4 .center .animHov>
+                <img src=@{StaticR images_entrega_gif}>
+                <p> Espere a entrega. </p>
+            <div .col .l4 .m4 .s4 .center .animHov>
+                <img .eat_Gif src=@{StaticR images_eat_gif}>
+                <p .eat_paragraph> E delicie. </p>
         
         <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.0408698518936!2d-46.341246649773744!3d-23.9589948844108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce0314b0375103%3A0x8dfdadd481fa76e4!2sSubway!5e0!3m2!1spt-BR!2sbr!4v1512430448142 .center .map-content .row frameborder=0>
