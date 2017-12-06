@@ -3,7 +3,7 @@
         <div .slider .row .slider-margin>
             <ul .slides>
                 <li>
-                    <img src=@{StaticR images_bannersandwich_jpg}> 
+                    <img src=@{StaticR images_bannersandwich_jpg}>
                     <div .caption .left-align>
                         <h3 .black-text .back-colour-visible>
                             Venha e deixe mais gostoso!
@@ -22,8 +22,7 @@
                         <h3 .black-text .back-colour-visible>
                             Aqui tem pra quem é fit!
                         <h5 .light .black-text .back-colour-visible>
-                            O pão bem sem graça, para sua vida sem graça.
-                            
+                            O pão bem sem graça, para sua vida sem graça.                   
         <div .row>
             <div .col .l4 .m4 .s4 .center .animHov>
                 <img .anim src=@{StaticR images_images_gif}>

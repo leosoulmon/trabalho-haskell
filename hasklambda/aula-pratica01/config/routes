@@ -2,3 +2,5 @@
 
 /                          HomeR            GET
 /cardapio                  CardapioR        GET
+/pedido                    PedidoR          GET
+/login                     LoginR          GET

@@ -1,0 +1,6 @@
+lista todos os pedidos
+esse seria para cardapio
+lanches <- runDB selectList [] []
+
+lista todos os pedidos de um cliente especifico
+pedidos <- runDB selectList [PedidoClienteClid ==. (toSqlKey 1) ] []

@@ -7,10 +7,13 @@ Pedido json
     deriving Show
 
 PedidoCliente
-    pdId     PedidoId
-    clid     ClienteId
-    troco    Int
-    deriving Show
+    pdId        PedidoId
+    clid        ClienteId
+    quantidade  Int
+    troco       Int
+    estado      Int
+    observacao  Text
+    deriving    Show
     
 Cliente json
     nome        Text
@@ -21,8 +24,8 @@ Cliente json
     telefone    Text
     endereco    Text
     numero      Int
-    complemento Text
+    complemento Text Maybe
     cidade      Text
     estado      Text
     UniqueField   cpf email
-    deriving Show
+    deriving Show Read

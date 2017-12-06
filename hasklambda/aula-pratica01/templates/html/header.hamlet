@@ -8,19 +8,22 @@
                     <i .material-icons .vermelho-logo-text> menu </i>       
         
 <ul #slide-out .side-nav .right>
-    <li>
-        <div .user-view>
-            <a>
-                <span class="name">
-                    Leosoulmon
-            <a>
-                <span class="email">
-                    leosoulmon@gmail.com
+    $maybe cli <- talvezUsuario
+        <li>
+            <div .user-view>
+                <a>
+                    <span class="name">
+                        #{clienteNome cli}
+                <a>
+                    <span class="email">
+                        #{clienteEmail cli}
+    $nothing
+        <li>
+            <a href=@{LoginR}> Login </a>
     <li>
         <a href=@{HomeR}> Inicio </a>
     <li>
         <a href=@{CardapioR}> Cardápio </a>
     <li>
-        <a href=#> Pedido </a>
-    <li>
-        <a href=#> Login </a>
+        <a href=@{PedidoR}> Pedido </a>
+        

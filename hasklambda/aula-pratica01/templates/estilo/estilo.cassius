@@ -35,3 +35,9 @@ nav .nav-wrapper i
 
 .anim
     width: 30%;
+    
+.btn-form-container
+    padding-left: 12px;
+
+.page-title
+    font-size: 1.4rem;

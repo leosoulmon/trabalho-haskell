@@ -4,15 +4,15 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
 {-# LANGUAGE QuasiQuotes #-}
-module Handler.Inicio where
+module Handler.Pedido where
 
 import Import
 import Text.Cassius
 import Database.Persist.Postgresql
 import qualified Prelude as P
 
-getHomeR :: Handler Html
-getHomeR = do
+getPedidoR :: Handler Html
+getPedidoR = do
     sess <- lookupSession "_CLI"
     talvezUsuario <- return $ fmap (P.read . unpack) sess :: Handler (Maybe Cliente)
     defaultLayout $ do
@@ -23,26 +23,5 @@ getHomeR = do
         addScript $ StaticR js_init_js
         toWidget $ $(cassiusFile "templates/estilo/estilo.cassius")
         $(whamletFile "templates/html/header.hamlet")
-        $(whamletFile "templates/html/inicio.hamlet")
+        $(whamletFile "templates/html/pedido.hamlet")
         $(whamletFile "templates/html/footer.hamlet")
-        
-        
-        
-        
-        
--- função para chamar html
--- entrada de parametro por url(interpolador)
--- sempre para mostrar como String ou texto use #{interpolador}
--- a parte html fica dentro do whamlet
-
--- getHomeR :: Text -> Handler Html
--- getHomeR var = do
---     defaultLayout $ do
---         toWidget $ [cassius|
---             p
---                 color: #{var}
---         |]
---         [whamlet|
---             <p>
---               <span>ALOOO #{var}</span>
---         |]

@@ -8,9 +8,13 @@ module Handler.Cardapio where
 
 import Import
 import Text.Cassius
+import Database.Persist.Postgresql
+import qualified Prelude as P
 
 getCardapioR :: Handler Html
 getCardapioR = do
+    sess <- lookupSession "_CLI"
+    talvezUsuario <- return $ fmap (P.read . unpack) sess :: HandlerT App IO (Maybe Cliente)
     defaultLayout $ do
         addStylesheet $ StaticR css_materialize_css
         addStylesheetRemote "https://fonts.googleapis.com/icon?family=Material+Icons"

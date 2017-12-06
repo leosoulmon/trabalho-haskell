@@ -69,6 +69,8 @@ library
       Foundation
       Handler.Cardapio
       Handler.Inicio
+      Handler.Login
+      Handler.Pedido
       Import
       Import.NoFoundation
       Model
