@@ -1,0 +1,14 @@
+<main .margin-main-content>
+    <div .row>
+        <h1 .page-title .vermelho-logo-text .center>
+            Cadastre-se para deliciar-se
+    <div .row>
+        <div .col .l6 .offset-l3 .m6 .offset-m3 .s12>
+            <form action=@{CadastrarClienteR} method=post enctype=#{enctype}>
+                ^{widget}
+                <div .row .btn-form-container>
+                    <button .btn .waves-effect .waves-light .vermelho-logo-text .amarelo-logo type=submit>
+                        Enviar
+                        <i .material-icons .right>
+                            send
+                        

@@ -1,7 +1,8 @@
 /static StaticR Static appStatic
 
-/                          HomeR            GET
-/cardapio                  CardapioR        GET
-/pedido/#PedidoId/comprar  PedidoR          GET
-/login                     LoginR           GET POST
-/logout                    LogoutR          POST
+/                          HomeR                GET
+/cardapio                  CardapioR            GET
+/pedido/#PedidoId/comprar  PedidoR              GET
+/login                     LoginR               GET POST
+/logout                    LogoutR              POST
+/cadastrar                 CadastrarClienteR    GET POST

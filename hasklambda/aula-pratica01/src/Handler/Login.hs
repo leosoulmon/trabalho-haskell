@@ -41,8 +41,8 @@ postLoginR = do
             case talvezCliente of 
                 Nothing -> do 
                     setMessage [shamlet| 
-                        <p> 
-                            Login ou senha invalido 
+                        <p style=text-align:center;color:white;background:red;  > 
+                            Email ou senha invalido!
                     |]
                     redirect LoginR
                 Just (Entity clid (Cliente nome sobrenome cpf email _ telefone endereco numero complemento cidade estado)) -> do 

@@ -39,3 +39,8 @@
             <i .material-icons .left> 
                 featured_play_list 
             Cardápio
+    <li>
+        <a href=@{CadastrarClienteR}> 
+            <i .material-icons .left> 
+                assignment 
+            Cadastrar

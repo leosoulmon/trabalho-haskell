@@ -11,6 +11,7 @@
                 <b>
                     #{pedidoSanduiche pedido}
             <p> #{pedidoDescricao pedido} </p>
+            <p> Acompanhamento: #{pedidoAcompanhamento pedido} </p>
             <p> 
                 Preço: 
                 <span .preco>
