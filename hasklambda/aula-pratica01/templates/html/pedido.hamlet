@@ -4,16 +4,19 @@
             Faça seu pedido
     <div .row>
         <div .col .l6 .m6 .m12>
-            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+            <img src=@{StaticR images_sandwiches_1_jpg} .responsive-img>
         <div .col .l6 .m6 .m12>
-            <p .num_pedido> Número do pedido: 001 </p>
+            <p .num_pedido> Número do pedido: #{pedidoNumero pedido} </p>
             <h4>
                 <b>
-                    Sandubixa
-            <p> Sanduiche para gays </p>
+                    #{pedidoSanduiche pedido}
+            <p> #{pedidoDescricao pedido} </p>
             <p> 
                 Preço: 
                 <span .preco>
-                    R$24,00
+                    R$ #{pedidoPreco pedido}
             <form action=# >
-                <button .btn .waves-effect .waves-light .vermelho-logo-text .amarelo-logo>Pagar</button>
+                <button .btn .waves-effect .waves-light .vermelho-logo-text .amarelo-logo>
+                    Pagar 
+                    <i .material-icons .left>
+                        attach_money

@@ -11,10 +11,11 @@ import Text.Cassius
 import Database.Persist.Postgresql
 import qualified Prelude as P
 
-getPedidoR :: Handler Html
-getPedidoR = do
+getPedidoR :: PedidoId -> Handler Html
+getPedidoR pedidoid = do
     sess <- lookupSession "_CLI"
     talvezUsuario <- return $ fmap (P.read . unpack) sess :: Handler (Maybe Cliente)
+    pedido <- runDB $ get404 pedidoid
     defaultLayout $ do
         addStylesheet $ StaticR css_materialize_css
         addStylesheetRemote "https://fonts.googleapis.com/icon?family=Material+Icons"

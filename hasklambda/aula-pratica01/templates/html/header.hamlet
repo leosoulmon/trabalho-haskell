@@ -39,8 +39,3 @@
             <i .material-icons .left> 
                 featured_play_list 
             Cardápio
-    <li>
-        <a href=@{PedidoR}> 
-            <i .material-icons .left>
-                assignment 
-            Pedido

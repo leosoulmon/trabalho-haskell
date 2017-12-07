@@ -63,8 +63,8 @@ span.txt_link
     font-weigth: bold;
     
 .btn:hover
-    background-color: #d90202!important;
-    color: #ede576!important;
+    background-color: #d90202 !important;
+    color: #ede576 !important;
     
 .logout
     position: absolute;

@@ -4,6 +4,7 @@ Pedido json
     descricao       Text
     acompanhamento  Text
     preco           Int
+    imagem          Text
     deriving Show
 
 PedidoCliente
