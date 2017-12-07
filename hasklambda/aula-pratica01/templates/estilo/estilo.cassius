@@ -41,3 +41,32 @@ nav .nav-wrapper i
 
 .page-title
     font-size: 1.4rem;
+    
+.icoRS
+    width: 30px;
+    border-radius: 7px;
+span.txt_link
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    width: 0px;
+    overflow: hidden;
+    display: none;
+    
+.num_pedido
+    font-size: 0.7rem;
+    color: #f00;
+    
+.preco
+    color: #f00;
+    font-weigth: bold;
+    
+.btn:hover
+    background-color: #d90202!important;
+    color: #ede576!important;
+    
+.logout
+    position: absolute;
+    right: 0;
+    top: 50px;

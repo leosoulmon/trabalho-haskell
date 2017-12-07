@@ -1,0 +1,19 @@
+<main .container .margin-main-content>
+    <div .row>
+        <h1 .page-title .vermelho-logo-text>
+            Faça seu pedido
+    <div .row>
+        <div .col .l6 .m6 .m12>
+            <img src=@{StaticR images_sanduicheVeggie_jpg} .responsive-img>
+        <div .col .l6 .m6 .m12>
+            <p .num_pedido> Número do pedido: 001 </p>
+            <h4>
+                <b>
+                    Sandubixa
+            <p> Sanduiche para gays </p>
+            <p> 
+                Preço: 
+                <span .preco>
+                    R$24,00
+            <form action=# >
+                <button .btn .waves-effect .waves-light .vermelho-logo-text .amarelo-logo>Pagar</button>

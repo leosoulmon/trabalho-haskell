@@ -7,12 +7,15 @@
                     Faça seu pedio agora do que você mais gosta e deixe seu dia mais gostoso.</p>
             <div .col .l4 .offset-l2 s12>
                 <h5 .black-text> Redes Sociais</h5>
-                <p>
-                    <a .black-text href=#> Facebook </a>
-                <p>
-                    <a .black-text href=#> Instagram </a>
-                <p>
-                    <a .black-text href=#> Twitter </a>
+                <div>
+                    <a href=http://www.facebook.com.br target=_BLANK .tooltipped data-position=right data-delay=50 data-tooltip=Facebook> 
+                        <img .icoRS src=@{StaticR images_fbLogo_png}>
+                <div>
+                    <a href=http://www.instagram.com.br target=_BLANK .tooltipped data-position=right data-delay=50 data-tooltip=Instagram>
+                        <img .icoRS src=@{StaticR images_instaLogo_png}>
+                <div>
+                    <a href=http://www.twitter.com.br target=_BLANK .tooltipped data-position=right data-delay=50 data-tooltip=Twitter> 
+                        <img .icoRS src=@{StaticR images_ttLogo_png}>
     <div .footer-copyright .vermelho-logo>
         <div .container>
             © 2017 Copyright

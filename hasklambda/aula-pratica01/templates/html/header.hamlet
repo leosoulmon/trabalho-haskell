@@ -17,13 +17,30 @@
                 <a>
                     <span class="email">
                         #{clienteEmail cli}
+                <form action=@{LogoutR} method=post .right>
+                    <button .btn .waves-effect .waves-light .vermelho-logo-text .amarelo-logo .logout type="submit">
+                        sair
+                        <i .material-icons .right>
+                            send
+                
     $nothing
         <li>
-            <a href=@{LoginR}> Login </a>
+            <a href=@{LoginR}>
+                <i .material-icons .left>
+                    assignment_ind
+                Login 
     <li>
-        <a href=@{HomeR}> Inicio </a>
+        <a href=@{HomeR}> 
+            <i .material-icons .left> 
+                home
+            Inicio
     <li>
-        <a href=@{CardapioR}> Cardápio </a>
+        <a href=@{CardapioR}> 
+            <i .material-icons .left> 
+                featured_play_list 
+            Cardápio
     <li>
-        <a href=@{PedidoR}> Pedido </a>
-        
+        <a href=@{PedidoR}> 
+            <i .material-icons .left>
+                assignment 
+            Pedido
