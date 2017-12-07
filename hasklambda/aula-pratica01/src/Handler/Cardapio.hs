@@ -12,6 +12,9 @@ import Text.Cassius
 import Database.Persist.Postgresql
 import qualified Prelude as P
 
+getImgStatic :: [Text] -> Route Static
+getImgStatic img = StaticRoute img []
+
 getCardapioR :: Handler Html
 getCardapioR = do
     sess <- lookupSession "_CLI"

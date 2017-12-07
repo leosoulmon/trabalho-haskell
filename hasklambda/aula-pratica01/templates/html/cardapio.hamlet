@@ -4,11 +4,11 @@
             Cardápio
     <div .row>
         $forall (Entity pedidoid lanche) <- lanches
-            <div .col .l3 .m4 .m6>
-                <img src=@{StaticR images_sandwiches_1_jpg} .responsive-img>
+            <div .col .l3 .m4 .m6 style=margin-bottom:50px;>
+                <img src=@{StaticR (getImgStatic ["images","sandwiches", (pedidoImagem lanche)])} .responsive-img style=min-height:190px;max-height:190px;>
                 <p> Número do lanche: #{pedidoNumero lanche} </p>
                 <p> #{pedidoSanduiche lanche} </p>
-                <p> #{pedidoDescricao lanche} </p>
+                <p style=font-size:0.8rem;> #{pedidoDescricao lanche} </p>
                 <p> Preço: #{pedidoPreco lanche}  </p>
                 <a href=@{PedidoR pedidoid} .btn .waves-effect .waves-light .vermelho-logo-text .amarelo-logo>
                     Deliciar-se
